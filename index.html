@@ -22,37 +22,36 @@
             font-family: 'Work Sans', sans-serif;
         }
 
-        ul li {
-            list-style: none;
-            margin: 5px 0;
-        }
-
         p {
             color: slategrey;
         }
+
         @media screen and (max-width:576px) {
-            .hide{
+            .hide {
                 display: none;
             }
-            
+
         }
-        .img-item-1{
+
+        .img-item-1 {
             background-image: url("images/banner.png");
             height: 100vh;
             background-size: cover;
-           
+
         }
-        .img-item-2{
+
+        .img-item-2 {
             background-image: url("images/banner.png");
             height: 100vh;
             background-size: cover;
-           
+
         }
-        .img-item-3{
+
+        .img-item-3 {
             background-image: url("images/banner.png");
             height: 100vh;
             background-size: cover;
-            
+
         }
     </style>
 
@@ -99,57 +98,65 @@
 
 
 
-       <section>
+        <section>
 
-        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="img-item-1"></div>
+                        <div class="carousel-caption d-none d-md-block">
+                            <h1 class="display-3 fw-bold">The perfect venue for your <br>
+                                next event</h1>
+                            <p class="text-white">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                                sint. Velit officia consequat duis enim velit </p>
+                            <button class="btn bg-white text-primary fw-bold mb-3">Book Now</button>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="img-item-2"></div>
+
+                        <div class="carousel-caption d-none d-md-block">
+                            <h1 class="display-3 fw-bold">The perfect venue for your <br>
+                                next event</h1>
+                            <p class="text-white">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                                sint. Velit officia consequat duis enim velit </p>
+                            <button class="btn bg-white text-primary fw-bold mb-3">Book Now</button>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="img-item-3"></div>
+                        <div class="carousel-caption d-none d-md-block">
+                            <h1 class="display-3 fw-bold">The perfect venue for your <br>
+                                next event</h1>
+                            <p class="text-white">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                                sint. Velit officia consequat duis enim velit </p>
+                            <button class="btn bg-white text-primary fw-bold mb-3">Book Now</button>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-            <div class="img-item-1"></div>
-                <div class="carousel-caption d-none d-md-block">
-                 <h1 class="display-3 fw-bold">The perfect venue for your <br>
-                    next event</h1>
-                  <p class="text-white">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit </p>
-                  <button class="btn bg-white text-primary fw-bold mb-3">Book Now</button>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="img-item-2"></div>
-               
-                <div class="carousel-caption d-none d-md-block">
-                    <h1 class="display-3 fw-bold">The perfect venue for your <br>
-                        next event</h1>
-                      <p class="text-white">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit </p>
-                      <button class="btn bg-white text-primary fw-bold mb-3">Book Now</button>
-                </div>
-              </div>
-              <div class="carousel-item">
-               <div class="img-item-3"></div>
-                <div class="carousel-caption d-none d-md-block">
-                    <h1 class="display-3 fw-bold">The perfect venue for your <br>
-                        next event</h1>
-                      <p class="text-white">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit </p>
-                      <button class="btn bg-white text-primary fw-bold mb-3">Book Now</button>
-                </div>
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
-       </section>
+        </section>
 
 
-           
+
 
 
 
@@ -158,7 +165,7 @@
 
     </header>
 
-    <main class="hide">
+    <main class="">
 
         <section class="container my-5 py-5">
 
@@ -190,7 +197,7 @@
                             <p class="card-text">For most businesses event
                                 like book fair, craft fair.
                             </p>
-                            <ul class="list-group my-1">
+                            <ul class="list-unstyled">
                                 <li> <span><i class="fa-solid fa-circle-check text-secondary"></i></span> limited space
                                     access</li>
                                 <li><i class="fa-solid fa-circle-check text-secondary"></i>limited space access</li>
@@ -213,7 +220,7 @@
                             <p class="card-text">For most businesses event
                                 like book fair, craft fair.
                             </p>
-                            <ul class="list-group my-1">
+                            <ul class="list-unstyled">
                                 <li> <span><i class="fa-solid fa-circle-check text-secondary"></i></span> limited space
                                     access</li>
                                 <li><i class="fa-solid fa-circle-check text-secondary"></i>limited space access</li>
@@ -234,10 +241,10 @@
                             <div class="card-body ">
                                 <h3 class="fw-bold">$300</h3>
                                 <h4 class="my-3">Business fair</h4>
-                                <p class="card-text">For most businesses event
+                                <p class="text-white">For most businesses event
                                     like book fair, craft fair.
                                 </p>
-                                <ul class="list-group my-1">
+                                <ul class="list-unstyled ">
                                     <li> <span><i class="fa-solid fa-circle-check "></i></span> limited space access
                                     </li>
                                     <li><i class="fa-solid fa-circle-check "></i>limited space access</li>
@@ -262,7 +269,7 @@
                             <p class="card-text">For most businesses event
                                 like book fair, craft fair.
                             </p>
-                            <ul class="list-group my-1">
+                            <ul class="list-unstyled">
                                 <li> <span><i class="fa-solid fa-circle-check text-secondary"></i></span> limited space
                                     access</li>
                                 <li><i class="fa-solid fa-circle-check text-secondary"></i>limited space access</li>
@@ -282,13 +289,13 @@
 
         </section>
 
-        <section class="container hide">
+        <section class="container">
             <h1 class="text-center my-5">Happy Client says</h1>
 
 
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="card text-center p-3 shadow-lg" style="width: 20rem;">
+            <div class="row ">
+                <div class="col-md-4 gy-3">
+                    <div class="card text-center shadow-lg  m-auto" style="width: 18rem;">
                         <div class="card-text">
                             <p>Slate helps you see how
                                 many more days you need
@@ -304,8 +311,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="card text-center p-3 shadow-lg" style="width: 20rem;">
+                <div class="col-md-4  gy-3">
+                    <div class="card text-center shadow-lg  m-auto" style="width: 18rem;">
                         <div class="card-text">
                             <p>Slate helps you see how
                                 many more days you need
@@ -321,8 +328,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="card text-center p-3 shadow-lg" style="width: 20rem;">
+                <div class="col-md-4 gy-3">
+                    <div class="card text-center shadow-lg m-auto" style="width: 18rem;">
                         <div class="card-text">
                             <p>Slate helps you see how
                                 many more days you need
@@ -340,10 +347,10 @@
                 </div>
 
             </div>
-            </div>
+            
         </section>
 
-        <section class="container my-5 py-5 hide">
+        <section class="container my-5 py-5">
             <h1 class="text-center my-5">Frequently Asked Questions</h1>
             <div>
                 <div class="row">
@@ -355,12 +362,15 @@
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#flush-collapseOne" aria-expanded="false"
                                         aria-controls="flush-collapseOne">
-                                        What’s the difference between event design and event planning? 
+                                        What’s the difference between event design and event planning?
                                     </button>
                                 </h2>
                                 <div id="flush-collapseOne" class="accordion-collapse collapse"
                                     aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                                    <div class="accordion-body">Event design and event planning work hand in hand to deliver a successful event.Events by Knight offer tailor made events. This means we incorporate both event design and event planning to create that perfect event.</div>
+                                    <div class="accordion-body">Event design and event planning work hand in hand to
+                                        deliver a successful event.Events by Knight offer tailor made events. This means
+                                        we incorporate both event design and event planning to create that perfect
+                                        event.</div>
                                 </div>
                             </div>
                             <div class="accordion-item">
@@ -386,7 +396,10 @@
                                 </h2>
                                 <div id="flush-collapseThree" class="accordion-collapse collapse"
                                     aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                                    <div class="accordion-body">Event design and event planning work hand in hand to deliver a successful event.Events by Knight offer tailor made events. This means we incorporate both event design and event planning to create that perfect event.</div>
+                                    <div class="accordion-body">Event design and event planning work hand in hand to
+                                        deliver a successful event.Events by Knight offer tailor made events. This means
+                                        we incorporate both event design and event planning to create that perfect
+                                        event.</div>
                                 </div>
                             </div>
                         </div>
@@ -401,12 +414,14 @@
                             </h2>
                             <div id="flush-collapseFour" class="accordion-collapse collapse"
                                 aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body">Event design and event planning work hand in hand to deliver a successful event.Events by Knight offer tailor made events. This means we incorporate both event design and event planning to create that perfect event.</div>
+                                <div class="accordion-body">Event design and event planning work hand in hand to deliver
+                                    a successful event.Events by Knight offer tailor made events. This means we
+                                    incorporate both event design and event planning to create that perfect event.</div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6">
-                        <img class="w-75 m-auto" src="images/people.png" alt="">
+                    <div class="col-md-6 ">
+                       <div class=""> <img class="w-75" src="images/people.png" alt=""></div>
                     </div>
                 </div>
             </div>
@@ -418,9 +433,18 @@
 
     </main>
 
-    <footer class="footer bg-dark text-white hide">
-        <div>
-            <p>@2022 bike. All right reserved</p>
+    <footer class="footer bg-dark text-white py-5">
+        <div class="container">
+            <div class=" d-flex justify-content-around align-items-center ">
+           
+           <div> <p>@2022 bike. All right reserved</p></div>
+           <div>
+            <h1>Get the App</h1>
+            <div class="logo">
+                <img class="" style="width:200px;" src="images/logo.png" alt="">
+            </div>
+           </div>
+        </div>
         </div>
     </footer>
 
